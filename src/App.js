@@ -23,9 +23,9 @@ function App() {
           <Route path="/profile" element={<PrivateRoute />}>
             <Route path="/profile" element={<Profile />} />
           </Route>
-          <Route path="/sign-in" element={<Signin />} />
-          <Route path="/sign-up" element={<Signup />} />
-          <Route path="/forgot-password" element={<Forgot />} />
+          <Route path="/signin" element={<Signin />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/forgot" element={<Forgot />} />
           <Route
             path="/category/:categoryName/:listingId"
             element={<Listing />}
